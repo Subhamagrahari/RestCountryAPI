@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+
+    
+}
+body{
+    background-color:rgb(32, 24, 24);
+    overflow: hidden;
+}
+.main{
+    width:100vw;
+    margin: 0px 400px;
+
+}
+.centre{
+    width:70vw;
+    margin:auto;
+}
+.first{
+width: 70vw;
+}
+.second{
+    width: 70vw;
+    display:flex;
+}
+.table{
+    width:100vw;
+}
+img{
+    width: 600px;
+    height:200px;
+}
+tr{
+background-color: rgb(242, 229, 229);
+color:black;
+}
+tr:nth-child(even){
+    background-color: rgb(159, 159, 248);
+    color: black;
+}
+tr,td{
+    padding: 8px;;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+input{
+    border: 4px solid black;
+    padding:9px;
+    width:61%;
+}
+button{
+    background-color: navy;
+    color:white;
+    height: 35px;
+}
+button:hover{
+    transform: rotateY(20deg);
+
+}
